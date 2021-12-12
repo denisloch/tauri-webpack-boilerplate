@@ -7,7 +7,7 @@
     "author": "",
     "scripts": {
         "webpack-dev": "webpack serve --env port=3000",
-        "tauri-dev": "tauri",
+        "tauri-dev": "tauri dev",
         "build": "webpack && tauri build"
     },
     "dependencies": {
