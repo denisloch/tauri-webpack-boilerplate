@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tauri Webpack Boilerplate</title>
+    </head>
+    <body>
+        <h1>Webpack server running on port <span id="port">-1</span></h1>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                document.getElementById("port").innerHTML = location.host.substring(location.host.indexOf(":")+1);
+            })
+        </script>
+    </body>
+</html>
